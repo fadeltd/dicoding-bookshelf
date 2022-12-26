@@ -1,0 +1,38 @@
+{
+  "name": "dicoding-bookshelf",
+  "version": "1.0.0",
+  "description": "Bookshelf REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "lint": "eslint index.js --fix",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fadeltd/dicoding-bookshelf.git"
+  },
+  "keywords": [
+    "bookshelf"
+  ],
+  "author": "fadeltd",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/fadeltd/dicoding-bookshelf/issues"
+  },
+  "homepage": "https://github.com/fadeltd/dicoding-bookshelf#readme",
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^21.1.0",
+    "@types/nanoid": "^3.0.0",
+    "nanoid": "^3.3.4"
+  }
+}
